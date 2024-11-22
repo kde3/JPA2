@@ -1,0 +1,16 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: jpa
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: c##scott
+    password: 1234
+  jpa:
+    hibernate:
+      ddlAuto: create
+#      ddlAuto: create-drop
+#      ddlAuto: update
+#      ddlAuto: validate
